@@ -1,0 +1,150 @@
+ext.versions = [
+        applicationId           : "com.mdd.platform",
+
+        code                    : 124,//123 - old-release
+        name                    : '1.2.2',//1.2.1 - old-release
+
+        minSdk                  : 16,
+        targetSdk               : 25,
+        compileSdk              : 28,//28
+        buildTools              : '28.0.3',//28.0.3
+
+        coroutinesLastestVersion: '1.0.0',
+
+        supportLibs             : '27.1.1',
+        supportConstrain        : '1.1.3',
+
+        nineoldandroids         : '2.4.0',
+
+        multidex                : '1.0.3',
+        flowlayout              : '1.0.3',
+        butterknife             : '8.8.1',
+//        butterknife             : '9.0.0-rc3',
+        dialogUtil              : '2.0.2',
+        materialishProgress     : '1.7',
+        loadviewhelper          : '1.1.2',
+        countdownview           : '2.1.6',
+        richtext                : '3.0.5',
+        htmlTextview            : '3.6',
+        smartRefreshLayout      : '1.1.0-alpha-2',
+        smartRefreshHeader      : '1.1.0-alpha-2',
+        jsoup                   : '1.11.3',
+        jpush                   : '3.1.1',
+        jcore                   : '1.1.9',
+        crashreport             : '2.6.6.1',
+        nativecrashreport       : '3.3.1',
+        scaleImageView          : '3.10.0',
+        qrcodereaderview        : '2.0.3',
+        awesomeQRCode           : '1.0.6',
+        arouter                 : '1.3.1',
+        PushVoiceBroadcast      : '1.0.2',
+
+        baseRecyAdapter         : '2.9.40',
+        flycoTabLayout          : '2.1.2@aar',
+        eventbus                : '3.1.1',
+        retrofit                : '2.5.0',
+        okio                    : '1.14.0',
+        okhttp                  : '3.12.0',
+        gson                    : '2.8.5',
+        rxpermissions           : '0.9.3@aar',
+        rxjava                  : '2.2.4',
+        rxandroid               : '2.1.0',
+//        rxchange                : '0.13.4',
+        compressor              : '1.0.4',
+        qiniuandroidsdk         : '7.3.12',
+        glide                   : '3.8.0',
+        fresco                  : '1.5.0',
+        swipeToLoadLayout       : 'v1.0.0',
+        photoView               : '1.2.4',
+        rebound                 : '0.3.8',
+        luban                   : '1.1.3',
+        pickerView              : '4.1.6',
+        gifdrawable             : '1.2.10',
+        etsyGridLibrary         : '1.0.5',
+        ucrop                   : '2.2.2-native',
+        pdfViewerVersion        : '2.8.2',
+
+        butterknifeCompiler     : '8.8.1',//8.8.1
+        arouterCompiler         : '1.1.4',
+
+        junit                   : '4.12',
+        leakcanary              : '1.5.4',
+        leakcanarynoop          : '1.5.4'
+
+]
+ext.libraries = [
+
+        //协程库
+        coroutinesVersion  : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutinesLastestVersion",
+
+        // [App依赖库]
+        supportAnnotations : "com.android.support:support-annotations:$versions.supportLibs",
+        supportAppCompat   : "com.android.support:appcompat-v7:$versions.supportLibs",
+        supportDesign      : "com.android.support:design:$versions.supportLibs",
+        supportRecyclerView: "com.android.support:recyclerview-v7:$versions.supportLibs",
+        supportCardView    : "com.android.support:cardview-v7:$versions.supportLibs",
+        supportFragment    : "com.android.support:support-fragment:$versions.supportLibs",
+        constraintLayout   : "com.android.support.constraint:constraint-layout:$versions.supportConstrain",
+        gridlayout         : "com.android.support:gridlayout-v7:$versions.supportLibs",
+
+        nineoldandroids    : "com.nineoldandroids:library:$versions.nineoldandroids",
+
+        multidex           : "com.android.support:multidex:$versions.multidex",
+        flowlayout         : "com.zhy:flowlayout-lib:$versions.flowlayout",
+        butterknife        : "com.jakewharton:butterknife:$versions.butterknife",
+        dialogUtil         : "com.github.hss01248:DialogUtil:$versions.dialogUtil",
+        materialishProgress: "com.pnikosis:materialish-progress:$versions.materialishProgress",
+        loadviewhelper     : "com.ycjiang:loadviewhelper:$versions.loadviewhelper",
+        countdownview      : "com.github.iwgang:countdownview:$versions.countdownview",
+        richtext           : "com.zzhoujay.richtext:richtext:$versions.richtext",
+        htmlTextview       : "org.sufficientlysecure:html-textview:$versions.htmlTextview",
+        smartRefreshLayout : "com.scwang.smartrefresh:SmartRefreshLayout:$versions.smartRefreshLayout",
+        smartRefreshHeader : "com.scwang.smartrefresh:SmartRefreshHeader:$versions.smartRefreshHeader",
+        jsoup              : "org.jsoup:jsoup:$versions.jsoup",
+        jpush              : "cn.jiguang.sdk:jpush:$versions.jpush",
+        jcore              : "cn.jiguang.sdk:jcore:$versions.jcore",
+        crashreport        : "com.tencent.bugly:crashreport:$versions.crashreport",
+        nativecrashreport  : "com.tencent.bugly:nativecrashreport:$versions.nativecrashreport",
+        scaleImageView     : "com.davemorrissey.labs:subsampling-scale-image-view:$versions.scaleImageView",
+        qrcodereaderview   : "com.dlazaro66.qrcodereaderview:qrcodereaderview:$versions.qrcodereaderview",
+        awesomeQRCode      : "com.github.SumiMakito:AwesomeQRCode:$versions.awesomeQRCode",
+        arouter            : "com.alibaba:arouter-api:$versions.arouter",
+        PushVoiceBroadcast : "com.github.YzyCoding:PushVoiceBroadcast:$versions.PushVoiceBroadcast",
+
+        // [BaseLib-依赖库]
+        baseRecyAdapter    : "com.github.CymChad:BaseRecyclerViewAdapterHelper:$versions.baseRecyAdapter",
+        flycoTabLayout     : "com.flyco.tablayout:FlycoTabLayout_Lib:$versions.flycoTabLayout",
+        eventbus           : "org.greenrobot:eventbus:$versions.eventbus",
+
+        retrofit           : "com.squareup.retrofit2:retrofit:$versions.retrofit",
+        converterGson      : "com.squareup.retrofit2:converter-gson:$versions.retrofit",
+        adapterRxjava      : "com.squareup.retrofit2:adapter-rxjava2:$versions.retrofit",
+        okio               : "com.squareup.okio:okio:$versions.okio",
+        okhttp             : "com.squareup.okhttp3:okhttp:$versions.okhttp",
+        loggingInterceptor : "com.squareup.okhttp3:logging-interceptor:$versions.okhttp",
+        gson               : "com.google.code.gson:gson:$versions.gson",
+        rxpermissions      : "com.tbruyelle.rxpermissions:rxpermissions:$versions.rxpermissions",
+        rxjava             : "io.reactivex.rxjava2:rxjava:$versions.rxjava",
+        rxandroid          : "io.reactivex.rxjava2:rxandroid:$versions.rxandroid",
+//        rxchange           : "com.github.akarnokd:rxjava2-interop:$versions:rxchange",
+        compressor         : "id.zelory:compressor:$versions.compressor",
+        qiniuandroidsdk    : "com.qiniu:qiniu-android-sdk:$versions.qiniuandroidsdk",
+        glide              : "com.github.bumptech.glide:glide:$versions.glide",
+        fresco             : "com.facebook.fresco:fresco:$versions.fresco",
+        swipeToLoadLayout  : "com.github.Aspsine:SwipeToLoadLayout:$versions.swipeToLoadLayout",
+        photoView          : "com.commit451:PhotoView:$versions.photoView",
+        rebound            : "com.facebook.rebound:rebound:$versions.rebound",
+        luban              : "top.zibin:Luban:$versions.luban",
+        pickerView         : "com.contrarywind:Android-PickerView:$versions.pickerView",
+        gifdrawable        : "pl.droidsonroids.gif:android-gif-drawable:$versions.gifdrawable",
+        etsyGridLibrary    : "com.etsy.android.grid:library:$versions.etsyGridLibrary",
+        yalantisUcrop      : "com.github.yalantis:ucrop:$versions.ucrop",
+        pdfViewerVersion   : "com.github.barteksc:android-pdf-viewer:$versions.pdfViewerVersion",
+
+        butterknifeCompiler: "com.jakewharton:butterknife-compiler:$versions.butterknifeCompiler",
+        arouterCompiler    : "com.alibaba:arouter-compiler:$versions.arouterCompiler",
+
+        junit              : "junit:junit:$versions.junit",
+        leakcanary         : "com.squareup.leakcanary:leakcanary-android:$versions.leakcanary",
+        leakcanarynoop     : "com.squareup.leakcanary:leakcanary-android-no-op:$versions.leakcanarynoop",
+]

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="half_white">#7fffffff</color>
+    <color name="red">#FF3333</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#EC6D1C</color>
+    <color name="c_f7993e">#f7993e</color>
+    <color name="c_ff4545">#ff4545</color>
+    <color name="c_39a848">#39a848</color>
+    <color name="green">#FF34A350</color>
+    <color name="gray">#eeeeee</color>
+    <color name="c_d_gray">#dddddd</color>
+    <color name="c_ff4081">#c00000</color>
+    <color name="c_f84b4b">#f84b4b</color>
+    <color name="c_d5723f">#d5723f</color>
+    <color name="c_fffc1b">#fffc1b</color>
+
+    <color name="c_ed2d41">#ed2d41</color>
+    <color name="c_c00000">#c00000</color>
+    <color name="c_f04877">@color/blue</color> <!--如TAB栏名称，icon，数据和价格，提示，按钮-->
+    <color name="c_ff7575">#ff7575</color> <!--如TAB栏名称，icon，数据和价格，提示，按钮-->
+    <color name="c_ffb7cc">#ffb7cc</color>
+    <color name="c_333333">#333333</color> <!--如TAB栏名称，icon，标题、类目名称、线性按钮名称等-->
+    <color name="c_cc2252">#ae0101</color> <!--触摸状态下的按钮颜色-->
+    <color name="c_666666">#666666</color> <!--如评论用户名及内容，搜索框内的ICON等-->
+    <color name="c_999999">#999999</color> <!--如店铺名称，地址信息，所属类目，原价格，效果性按钮边框等-->
+    <color name="c_d1d1d1">#d1d1d1</color> <!--如搜索框的默认文字，失效状态下的按钮-->
+    <color name="c_ffe6ee">#ffe6ee</color> <!--提示信息底色-->
+    <color name="c_ffdddd">#ffdddd</color>
+    <color name="c_e1e1e1">#e1e1e1</color> <!--分割线，输入边框-->
+    <color name="c_f6f6f6">#f6f6f6</color> <!--背景色-->
+    <color name="c_e6e6e6">#e6e6e6</color> <!--背景色-->
+    <color name="c_ffc63d">#ffc63d</color> <!--会员卡标签颜色-->
+    <color name="black_5a626d">#5a626d</color>
+    <color name="c_loading_dialog_bg">#BDBDBD</color>
+    <color name="split_line_bottom_color">#ffa8adb3</color>
+
+
+    <color name="comment_bg_color">#b2000000</color>
+    <color name="c_000000_50">#7f000000</color> <!--半透明-->
+    <color name="c_000000_30">#3f000000</color>
+    <color name="c_gray">#E6E6E6</color>
+    <color name="c_translucent">#7f000000</color> <!--半透明-->
+    <color name="c_translucent_20">#08000000</color> <!--半透明-->
+    <color name="c_transparent">#00000000</color><!--透明-->
+    <color name="clr_d9d9d9">#d9d9d9</color>
+
+    <!--导航栏 文本颜色-->
+    <color name="c_actionBar_txt">@color/c_333333</color>
+    <color name="bg_actionBar">@color/white</color>
+    <color name="bg_detail_actionBar">@color/c_000000_30</color>
+
+    <!--主体文本颜色-->
+    <color name="txt_title">@color/c_333333</color>
+
+    <!--输入框提示文本颜色-->
+    <color name="txt_hint">@color/c_d1d1d1</color>
+    <color name="txt_tip">@color/c_f04877</color>
+    <color name="txt_price">@color/c_f04877</color>
+    <color name="txt_black">@color/c_333333</color>
+    <color name="txt_gray">@color/c_666666</color>
+    <color name="txt_light_gray">@color/c_999999</color>
+
+    <!--输入框背景色-->
+    <color name="bg_edit">@color/c_f6f6f6</color>
+
+    <!--tab栏颜色-->
+    <color name="c_tab_press">@color/c_f04877</color>
+    <color name="c_tab_normal">@color/c_333333</color>
+
+    <!--按钮状态-->
+    <color name="c_btn_normal">@color/c_f04877</color>
+    <color name="c_btn_press">@color/c_cc2252</color>
+    <color name="c_btn_unEnable">@color/c_d1d1d1</color>
+
+    <!--会员标签-->
+    <color name="bg_tag_member">#50a2e8</color>
+    <!--活动标签-->
+    <color name="bg_tag_event">#ff7575</color>
+    <!--套餐项目-->
+    <color name="bg_tag_package_project">#f19149</color>
+
+    <!--分割线 粉色-->
+    <color name="c_line_pink">@color/c_f04877</color>
+    <!--订单详情顶部状态栏区域-->
+    <color name="bg_order_detail_state">@color/c_ffe6ee</color>
+
+    <!--背景色-->
+    <color name="bg_gray">#f6f6f6</color>
+    <color name="title_bar_line">#e1e1e1</color>
+    <color name="bg_toast">#ff4A4A4A</color>
+    <color name="white_menu">#33ffffff</color>
+
+    <!--线的颜色-->
+    <color name="line_gray">#cccccc</color>
+    <color name="line_white_30">#99ffffff</color>
+    <color name="line_low_gray">#e1e1e1</color>
+    <color name="text_red">#ff3355</color>
+    <color name="text_pink">@color/c_ff4081</color>
+    <color name="text_price">@color/c_ff4081</color>
+    <color name="text_dark_black">#000000</color><!--纯黑色-->
+    <color name="text_black">#333333</color><!--重要文字-->
+    <color name="text_color_lighter_gray">#a5a5a5</color>
+    <color name="text_gray">#666666</color><!--一般文字-->
+    <color name="text_low_gray">#999999</color><!--提示性文字-->
+    <color name="text_white_90">#e5ffffff</color>
+    <color name="text_green">#53C7BC</color>
+    <color name="text_green_shen">#3baed0</color>
+    <color name="text_content_color_d1">#d1d1d1</color>
+    <color name="status_bg_color">@color/text_low_gray</color>
+
+    <color name="percent_pink">#fff0f0</color>
+    <color name="percent_yellow">#ffd200</color>
+    <color name="percent_pink_red">#ff5656</color>
+    <color name="percent_red">#fa4040</color>
+    <color name="percent_deep_red">#f60157</color>
+    <color name="percent_gray">#d3dae0</color>
+
+    <color name="bg_color">#feadc8</color>
+    <color name="progress_color">#fee5ee</color>
+    <color name="progress_dot_color">#ffffff</color>
+
+    <!--分割线默认颜色-->
+    <color name="c_line">#e1e1e1</color>
+
+</resources>

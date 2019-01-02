@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--设置tabLayout的文本大小-->
+    <style name="TabLayoutTextStyle_Small" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">6sp</item>
+    </style>
+
+    <!--tab底部导航栏文字样式-->
+    <style name="tab_bottom_TvStyle" parent="tab_bottom_title_style">
+        <!--40dp-->
+        <item name="android:textSize">10sp</item>
+        <item name="android:paddingTop">@dimen/dp_2</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="tab_bottom_icon_style">
+        <item name="android:layout_height">@dimen/dp_17</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!--tab底部导航栏文字-->
+    <style name="tab_bottom_title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

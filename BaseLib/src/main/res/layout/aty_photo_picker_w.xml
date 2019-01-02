@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/photo_picker_w_IvLeft"
+            android:layout_width="@dimen/w_50"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:scaleType="center"
+            android:src="@mipmap/ic_nav_back" />
+
+        <TextView
+            android:id="@+id/photo_picker_w_TvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/w_50"
+            android:gravity="center"
+            android:textColor="@color/c_actionBar_txt"
+            android:textSize="@dimen/txt_actionbar_title" />
+
+        <TextView
+            android:id="@+id/photo_picker_w_TvRight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:layout_marginRight="@dimen/w_8"
+            android:layout_toRightOf="@id/photo_picker_w_TvTitle"
+            android:drawablePadding="@dimen/w_6"
+            android:drawableRight="@mipmap/ic_arrow_down_gray"
+            android:ellipsize="end"
+            android:gravity="center_vertical|end"
+            android:maxLines="1"
+            android:paddingRight="@dimen/w_4"
+            android:text="全部图片"
+            android:textColor="@color/c_actionBar_txt"
+            android:textSize="@dimen/txt_content_title" />
+
+        <View
+            style="@style/line_normal_l"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/photo_picker_w_RvPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clipToPadding="false"
+                android:paddingLeft="@dimen/w_5"
+                android:paddingRight="@dimen/w_5"
+                android:paddingTop="@dimen/h_5" />
+
+            <include
+                android:id="@+id/photo_picker_w_VBottom"
+                layout="@layout/include_photo_picker_bottom"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/photo_picker_w_Mask"
+            layout="@layout/view_mask"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+</LinearLayout>

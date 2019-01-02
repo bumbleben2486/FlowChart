@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<core.base.views.scroll.MaxHeightScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <core.base.views.grid.GridLayoutList
+        android:id="@+id/pop_photo_clazz_GllData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</core.base.views.scroll.MaxHeightScrollView>

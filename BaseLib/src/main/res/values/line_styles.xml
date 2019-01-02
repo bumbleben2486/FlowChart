@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--水平分割线样式-->
+    <!--  <item name="android:background">@color/c_line</item>-->
+    <style name="line_normal_l">
+        <item name="android:background">@color/bg_gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/title_bar_line_height</item>
+    </style>
+
+
+    <style name="line_normal_l_e1e1e1">
+        <item name="android:background">@color/c_line</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+    </style>
+
+    <style name="line_2px_l_e1e1e1">
+        <item name="android:background">@color/c_line</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_1</item>
+    </style>
+
+    <!--水平分割线样式-->
+    <style name="line_normal_l_cf6">
+        <item name="android:background">@color/bg_gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+    </style>
+
+    <!--title bar divider color-->
+    <style name="title_bar_divider_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/bg_gray</item>
+        <item name="android:layout_height">@dimen/title_bar_line_height</item>
+    </style>
+
+
+    <!--垂直分割线样式-->
+    <style name="line_normal_v">
+        <item name="android:background">@color/c_line</item>
+        <item name="android:layout_width">@dimen/line_width</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <!--水平分割线样式 粉色-->
+    <style name="line_pink_l">
+        <item name="android:background">@color/c_line_pink</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+    </style>
+
+    <!--垂直分割线样式 粉色-->
+    <style name="line_pink_v">
+        <item name="android:background">@color/c_line_pink</item>
+        <item name="android:layout_width">@dimen/line_width</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <!--水平虚线-->
+    <style name="line_dotted_normal_l">
+        <item name="android:background">@drawable/line_dotted_while</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+    </style>
+
+    <!--垂直虚线-->
+    <style name="line_dotted_normal_v">
+        <item name="android:background">@drawable/line_dotted_while</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+    </style>
+
+</resources>

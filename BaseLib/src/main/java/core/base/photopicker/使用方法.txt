@@ -1,0 +1,22 @@
+SelectPhotoCropActivity.startAndCrop(mContext, TAG, R.color.text_gray, 100, 100, true, NaiBaoApp.getDefaultOption());
+EventBus.getDefault().register(this);
+public static UCrop.Options getDefaultOption(){
+        UCrop.Options options=new UCrop.Options();
+        options.setCompressionFormat(Bitmap.CompressFormat.JPEG);
+        options.setHideBottomControls(false);
+        options.setToolbarColor(ContextCompat.getColor(ABApplication.getInstance(), R.color.bg_green));
+        options.setStatusBarColor(ContextCompat.getColor(ABApplication.getInstance(), R.color.bg_green));
+        options.setActiveWidgetColor(ContextCompat.getColor(ABApplication.getInstance(), R.color.white));
+        options.setToolbarWidgetColor(ContextCompat.getColor(ABApplication.getInstance(),  R.color.white));
+        return options;
+    }
+
+
+@Subscribe(threadMode = ThreadMode.MAIN)
+    public void onSelectPhotoEvent(SelectPhotoEvent event) {
+        if (TAG.equals(event.flag) && event.imagePath != null) {
+            GlideDisplay.display(mRivHead, new File(event.imagePath));
+            mRivHead.setTag(event.imagePath);
+            userIco(event.imagePath);
+        }
+    }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/h_60"
+    android:layout_gravity="bottom"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/w_5"
+    android:paddingRight="@dimen/w_5">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/photo_picker_bottom_RvSelectedPhoto"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/h_50"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/photo_picker_bottom_BtnConfirm"
+        android:layout_width="@dimen/w_70"
+        android:layout_height="@dimen/h_30"
+        android:layout_marginLeft="@dimen/w_10"
+        android:background="@drawable/btn_selector_photo_picker"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_content_normal" />
+
+</LinearLayout>

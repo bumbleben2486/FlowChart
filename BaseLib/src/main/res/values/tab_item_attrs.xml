@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<declare-styleable name="TabItemView">
+    <attr name="tabItem_icon" format="color|reference" />
+    <attr name="tabItem_title" format="string" />
+    <attr name="tabItem_showRedPoint" format="boolean" />
+    <attr name="tabItem_txtColor" format="color|reference" />
+    <attr name="tabItem_checked" format="boolean" />
+</declare-styleable>
+</resources>

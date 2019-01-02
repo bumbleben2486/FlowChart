@@ -1,0 +1,62 @@
+apply plugin: 'com.android.library'
+
+android {
+
+    compileSdkVersion versions.compileSdk
+    buildToolsVersion versions.buildTools //27.0.3
+
+    defaultConfig {
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.targetSdk
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api libraries.supportRecyclerView
+    api libraries.supportAppCompat
+    api libraries.gridlayout
+    api libraries.supportDesign
+    api libraries.nineoldandroids
+    api libraries.flycoTabLayout
+    api libraries.eventbus
+    api libraries.retrofit
+    api libraries.converterGson
+    api libraries.adapterRxjava
+    api libraries.okio
+    api libraries.okhttp
+    api libraries.loggingInterceptor
+    api libraries.gson
+    api libraries.rxpermissions
+    api libraries.rxjava
+    api libraries.rxandroid
+    api libraries.compressor
+    api libraries.qiniuandroidsdk
+    api libraries.glide
+    api libraries.fresco
+    api libraries.photoView
+    api libraries.rebound
+    api libraries.luban
+    api libraries.pickerView
+    api libraries.gifdrawable
+    api libraries.etsyGridLibrary
+    api libraries.yalantisUcrop
+    api libraries.pdfViewerVersion
+
+
+}
