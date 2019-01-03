@@ -3,4 +3,79 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="c_f04877">#f04877</color> <!--如TAB栏名称，icon，数据和价格，提示，按钮-->
+    <color name="c_ff7575">#ff7575</color> <!--如TAB栏名称，icon，数据和价格，提示，按钮-->
+    <color name="c_333333">#333333</color> <!--如TAB栏名称，icon，标题、类目名称、线性按钮名称等-->
+    <color name="c_cc2252">#cd2252</color> <!--触摸状态下的按钮颜色-->
+    <color name="c_666666">#666666</color> <!--如评论用户名及内容，搜索框内的ICON等-->
+    <color name="c_999999">#999999</color> <!--如店铺名称，地址信息，所属类目，原价格，效果性按钮边框等-->
+    <color name="c_d1d1d1">#d1d1d1</color> <!--如搜索框的默认文字，失效状态下的按钮-->
+    <color name="c_ffe6ee">#ffe6ee</color> <!--提示信息底色-->
+    <color name="c_e1e1e1">#e1e1e1</color> <!--分割线，输入边框-->
+    <color name="c_f6f6f6">#f6f6f6</color> <!--背景色-->
+    <color name="c_000000_50">#7f000000</color> <!--半透明-->
+    <color name="c_000000_30">#3f000000</color>
+
+    <color name="c_000000_10">#1f000000</color>
+    <color name="c_ffc80a">#FFC80A</color>
+
+    <color name="pack_tag">@color/c_ffc80a</color>
+    <color name="gray_e7e7e7">#e7e7e7</color>
+    <color name="b_c_fafafa">#fafafa</color>
+    <color name="c_translucent">#7f000000</color> <!--半透明-->
+
+
+    <color name="c_translucent_20">#08000000</color> <!--半透明-->
+
+    <color name="c_transparent">#00000000</color><!--透明-->
+
+
+    <!--导航栏 文本颜色-->
+    <color name="c_actionBar_txt">@color/c_333333</color>
+
+    <color name="bg_detail_actionBar">@color/c_000000_30</color>
+
+
+    <!--主体文本颜色-->
+    <color name="txt_title">@color/c_333333</color>
+
+    <!--输入框提示文本颜色-->
+    <color name="txt_hint">@color/c_d1d1d1</color>
+    <color name="txt_tip">@color/c_f04877</color>
+    <color name="txt_price">@color/c_f04877</color>
+    <color name="txt_black">@color/c_333333</color>
+    <color name="txt_gray">@color/c_666666</color>
+    <color name="txt_light_gray">@color/c_999999</color>
+
+    <!--输入框背景色-->
+    <color name="bg_edit">@color/c_f6f6f6</color>
+
+
+    <!--tab栏颜色-->
+    <color name="c_tab_press">@color/c_f04877</color>
+    <color name="c_tab_normal">@color/c_333333</color>
+
+
+    <!--按钮状态-->
+    <color name="c_btn_normal">@color/c_f04877</color>
+    <color name="c_btn_press">@color/c_cc2252</color>
+    <color name="c_btn_unEnable">@color/c_d1d1d1</color>
+
+
+
+    <!--会员标签-->
+    <color name="bg_tag_member">#50a2e8</color>
+    <!--活动标签-->
+    <color name="bg_tag_event">#ff7575</color>
+
+    <!--分割线默认颜色-->
+    <color name="c_line">@color/c_e1e1e1</color>
+    <!--分割线 粉色-->
+    <color name="c_line_pink">@color/c_f04877</color>
+    <!--订单详情顶部状态栏区域-->
+    <color name="bg_order_detail_state">@color/c_ffe6ee</color>
+
+    <color name="kprogresshud_default_color">#b1000000</color>
+    <color name="kprogresshud_grey_color">#449E9E9E</color>
 </resources>
