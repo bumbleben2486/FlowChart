@@ -28,8 +28,8 @@ public class BaseFlowChartView extends View {
     }
 
 
-    private int mColor = Color.BLACK;
-    private Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
+    protected int mColor = Color.BLACK;
+    protected Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
 
     private void init(Context context, AttributeSet attrs) {
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CircleView);

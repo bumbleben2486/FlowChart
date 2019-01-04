@@ -12,8 +12,6 @@ import java.util.List;
  */
 public class FlowDataBean {
 
-    private FlowDataBean flowDataBean;
-
     /**
      * uuid : 0ef4fb445844463b96de83b3c271e9f4
      * processKey : test_process
@@ -27,14 +25,6 @@ public class FlowDataBean {
      * version : 0
      * newVersion : false
      */
-    public FlowDataBean(String json) {
-        try {
-            Gson gson = new Gson();
-            flowDataBean = gson.fromJson(json, FlowDataBean.class);
-        } catch (JsonSyntaxException e) {
-            e.printStackTrace();
-        }
-    }
 
     private String uuid;
     private String processKey;
@@ -439,7 +429,6 @@ public class FlowDataBean {
     @Override
     public String toString() {
         return "FlowDataBean{" +
-                "flowDataBean=" + flowDataBean +
                 ", uuid='" + uuid + '\'' +
                 ", processKey='" + processKey + '\'' +
                 ", processGroup=" + processGroup +
