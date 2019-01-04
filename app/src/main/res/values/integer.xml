@@ -5,4 +5,5 @@
     <integer name="rectangle_round">10</integer>
     <integer name="line_length">50</integer>
     <integer name="text_size">24</integer>
+    <integer name="line_landscape">20</integer>
 </resources>

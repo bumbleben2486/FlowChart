@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * @Author Benjen April
+ * @Author Benjen Masters
  * @Date 2019/1/2
  */
 public class FlowChartView extends View {

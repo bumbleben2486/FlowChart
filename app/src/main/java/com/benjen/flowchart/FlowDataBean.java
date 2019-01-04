@@ -1,12 +1,18 @@
 package com.benjen.flowchart;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
+
+import java.lang.reflect.Type;
 import java.util.List;
 
 /**
- * @Author Benjen April
+ * @Author Benjen Masters
  * @Date 2019/1/3
  */
 public class FlowDataBean {
+
+    private FlowDataBean flowDataBean;
 
     /**
      * uuid : 0ef4fb445844463b96de83b3c271e9f4
@@ -21,6 +27,14 @@ public class FlowDataBean {
      * version : 0
      * newVersion : false
      */
+    public FlowDataBean(String json) {
+        try {
+            Gson gson = new Gson();
+            flowDataBean = gson.fromJson(json, FlowDataBean.class);
+        } catch (JsonSyntaxException e) {
+            e.printStackTrace();
+        }
+    }
 
     private String uuid;
     private String processKey;
@@ -226,6 +240,22 @@ public class FlowDataBean {
         public void setToAnchor(int toAnchor) {
             this.toAnchor = toAnchor;
         }
+
+        @Override
+        public String toString() {
+            return "FlowLinesBean{" +
+                    "id=" + id +
+                    ", lineKey=" + lineKey +
+                    ", fromNode='" + fromNode + '\'' +
+                    ", toNode='" + toNode + '\'' +
+                    ", condition='" + condition + '\'' +
+                    ", description=" + description +
+                    ", name='" + name + '\'' +
+                    ", defaultFlow=" + defaultFlow +
+                    ", fromAnchor=" + fromAnchor +
+                    ", toAnchor=" + toAnchor +
+                    '}';
+        }
     }
 
     public static class NodePositionsBean {
@@ -261,6 +291,15 @@ public class FlowDataBean {
 
         public void setY(int y) {
             this.y = y;
+        }
+
+        @Override
+        public String toString() {
+            return "NodePositionsBean{" +
+                    "nodeKey='" + nodeKey + '\'' +
+                    ", x=" + x +
+                    ", y=" + y +
+                    '}';
         }
     }
 
@@ -378,5 +417,40 @@ public class FlowDataBean {
         public void setNeedAssignHandler(boolean needAssignHandler) {
             this.needAssignHandler = needAssignHandler;
         }
+
+        @Override
+        public String toString() {
+            return "NodesBean{" +
+                    "uuid='" + uuid + '\'' +
+                    ", name='" + name + '\'' +
+                    ", nodeKey='" + nodeKey + '\'' +
+                    ", remark=" + remark +
+                    ", description='" + description + '\'' +
+                    ", type='" + type + '\'' +
+                    ", indexCheckExp=" + indexCheckExp +
+                    ", roles=" + roles +
+                    ", formProperties=" + formProperties +
+                    ", persistence=" + persistence +
+                    ", needAssignHandler=" + needAssignHandler +
+                    '}';
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "FlowDataBean{" +
+                "flowDataBean=" + flowDataBean +
+                ", uuid='" + uuid + '\'' +
+                ", processKey='" + processKey + '\'' +
+                ", processGroup=" + processGroup +
+                ", remark=" + remark +
+                ", name='" + name + '\'' +
+                ", description=" + description +
+                ", version=" + version +
+                ", newVersion=" + newVersion +
+                ", flowLines=" + flowLines +
+                ", nodePositions=" + nodePositions +
+                ", nodes=" + nodes +
+                '}';
     }
 }

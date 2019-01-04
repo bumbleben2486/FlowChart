@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_circle">S</string>
+    <string name="rectangle">UT</string>
+    <string name="condition_chart">EG</string>
+    <string name="end_circle">E</string>
+</resources>
