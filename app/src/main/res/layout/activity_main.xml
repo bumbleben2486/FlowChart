@@ -7,7 +7,13 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <com.benjen.flowchart.FlowChartView
+
+    <!--    <ViewStub android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@+id/stub_import"
+                  android:inflatedId="@+id/stub_contain"
+                  android:layout="@layout/ll_flow_chart"/>-->
+    <com.benjen.flowchart.ImplFlowChartView
             app:circle_color="#666666"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

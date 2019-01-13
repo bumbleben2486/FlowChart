@@ -28,7 +28,7 @@ import io.reactivex.functions.Function;
 import io.reactivex.internal.util.LinkedArrayList;
 
 /**
- * @Author Benjen April
+ * @Author Benjen Masters
  * @Date 2019/1/2
  */
 public class FlowChartView extends View {
@@ -66,6 +66,18 @@ public class FlowChartView extends View {
 
 /*        //画开始节点
         canvas.drawCircle(width / 2, 50, 50, paint);
+        //画文字
+        String test = "特定节点";
+        paint.setStrokeWidth(3);
+        paint.setTextSize(24f);
+        paint.setColor(Color.RED);
+        paint.setTextAlign(Paint.Align.CENTER);
+        Rect bounds = new Rect();
+//        paint.getTextBounds(test, 0, test.length(), bounds);
+        canvas.drawText(test, lpoint, 50, paint);
+
+        paint.setColor(Color.parseColor("#666666"));
+
 
         //画结束节点
         canvas.drawCircle(lpoint, 450, 50, paint);
@@ -156,6 +168,7 @@ public class FlowChartView extends View {
 
             }
         }
+
 
 
     }

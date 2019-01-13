@@ -1,0 +1,178 @@
+{
+  "uuid": "0ef4fb445844463b96de83b3c271e9f4",
+  "processKey": "test_process",
+  "processGroup": null,
+  "remark": null,
+  "name": "测试流程",
+  "description": null,
+  "flowLines": [
+    {
+      "id": 34,
+      "lineKey": null,
+      "fromNode": "test_eg",
+      "toNode": "test_end",
+      "condition": "${@approveResult@ == \"invalid\"}",
+      "description": null,
+      "name": "无效",
+      "defaultFlow": false,
+      "fromAnchor": 3,
+      "toAnchor": 3
+    },
+    {
+      "id": 33,
+      "lineKey": null,
+      "fromNode": "test_eg",
+      "toNode": "test_end",
+      "condition": "${@approveResult@ == \"true\"}",
+      "description": null,
+      "name": "通过",
+      "defaultFlow": false,
+      "fromAnchor": 2,
+      "toAnchor": 0
+    },
+    {
+      "id": 32,
+      "lineKey": null,
+      "fromNode": "test_eg",
+      "toNode": "test_kfzy",
+      "condition": "${@approveResult@ == \"false\"}",
+      "description": null,
+      "name": "打回修改",
+      "defaultFlow": false,
+      "fromAnchor": 1,
+      "toAnchor": 1
+    },
+    {
+      "id": 31,
+      "lineKey": null,
+      "fromNode": "test_dzzy",
+      "toNode": "test_eg",
+      "condition": null,
+      "description": null,
+      "name": null,
+      "defaultFlow": false,
+      "fromAnchor": 2,
+      "toAnchor": 0
+    },
+    {
+      "id": 30,
+      "lineKey": null,
+      "fromNode": "test_kfzy",
+      "toNode": "test_dzzy",
+      "condition": null,
+      "description": null,
+      "name": null,
+      "defaultFlow": false,
+      "fromAnchor": 2,
+      "toAnchor": 0
+    },
+    {
+      "id": 29,
+      "lineKey": null,
+      "fromNode": "test_start",
+      "toNode": "test_kfzy",
+      "condition": null,
+      "description": null,
+      "name": null,
+      "defaultFlow": false,
+      "fromAnchor": 2,
+      "toAnchor": 0
+    }
+  ],
+  "nodePositions": [
+    {
+      "nodeKey": "test_end",
+      "x": 335,
+      "y": 638
+    },
+    {
+      "nodeKey": "test_eg",
+      "x": 335,
+      "y": 497
+    },
+    {
+      "nodeKey": "test_dzzy",
+      "x": 335,
+      "y": 351
+    },
+    {
+      "nodeKey": "test_kfzy",
+      "x": 335,
+      "y": 225
+    },
+    {
+      "nodeKey": "test_start",
+      "x": 335,
+      "y": 97
+    }
+  ],
+  "nodes": [
+    {
+      "uuid": "e792e3c4b5e14be3b302f65cb5191b05",
+      "name": "结束节点",
+      "nodeKey": "test_end",
+      "remark": null,
+      "description": "结束节点",
+      "type": "E",
+      "indexCheckExp": null,
+      "roles": null,
+      "formProperties": null,
+      "persistence": false,
+      "needAssignHandler": false
+    },
+    {
+      "uuid": "ed34b2f4228640b698ade64d4629ccf0",
+      "name": "审核结果",
+      "nodeKey": "test_eg",
+      "remark": null,
+      "description": "审核结果",
+      "type": "EG",
+      "indexCheckExp": null,
+      "roles": null,
+      "formProperties": null,
+      "persistence": false,
+      "needAssignHandler": false
+    },
+    {
+      "uuid": "a2062329bb3048f8a18f3d9495a0d940",
+      "name": "单证专员审核",
+      "nodeKey": "test_dzzy",
+      "remark": null,
+      "description": "单证专员审核",
+      "type": "UT",
+      "indexCheckExp": null,
+      "roles": null,
+      "formProperties": null,
+      "persistence": false,
+      "needAssignHandler": false
+    },
+    {
+      "uuid": "0129686b876b4e49aff6cf89656bc16e",
+      "name": "客服专员提交申请",
+      "nodeKey": "test_kfzy",
+      "remark": null,
+      "description": "客服专员提交申请",
+      "type": "UT",
+      "indexCheckExp": null,
+      "roles": null,
+      "formProperties": null,
+      "persistence": false,
+      "needAssignHandler": false
+    },
+    {
+      "uuid": "5530348db8f54376a7d1e968be57f87e",
+      "name": "开始节点",
+      "nodeKey": "test_start",
+      "remark": null,
+      "description": "开始节点",
+      "type": "S",
+      "indexCheckExp": null,
+      "roles": null,
+      "formProperties": null,
+      "persistence": false,
+      "needAssignHandler": false
+    }
+  ],
+  "version": 0,
+  "newVersion": false
+}
