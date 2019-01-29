@@ -13,9 +13,95 @@
                   android:id="@+id/stub_import"
                   android:inflatedId="@+id/stub_contain"
                   android:layout="@layout/ll_flow_chart"/>-->
-    <com.benjen.flowchart.ImplFlowChartView
-            app:circle_color="#666666"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+    <!--    <com.benjen.flowchart.FlowChartView
+                app:circle_color="#666666"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>-->
+    <android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                tools:layout_editor_absoluteY="-665dp"
+                                                tools:layout_editor_absoluteX="-795dp">
+
+        <com.benjen.flowlibrary.flowlayout.FlowLayout
+                xmlns:f="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                f:debugDraw="true"
+                f:weightDefault="1.0"
+                f:layoutDirection="ltr"
+                android:gravity="fill"
+                android:paddingLeft="6dip"
+                android:paddingTop="6dip"
+                android:paddingRight="12dip"
+                android:paddingBottom="12dip"
+                android:background="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32"
+                    android:layout_marginBottom="@dimen/dp_20"
+                    android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+            <Button android:layout_width="@dimen/dp_32" android:text="hello" android:layout_height="@dimen/dp_32"/>
+
+        </com.benjen.flowlibrary.flowlayout.FlowLayout>
+    </android.support.v4.widget.NestedScrollView>
 
 </android.support.constraint.ConstraintLayout>
